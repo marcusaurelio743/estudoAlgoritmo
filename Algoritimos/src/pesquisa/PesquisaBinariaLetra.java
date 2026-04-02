@@ -37,7 +37,7 @@ public class PesquisaBinariaLetra {
 			    "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
 			};
 		
-		System.out.println("posição da lista "+pesquisaBinaria(letras, "X"));
+		System.out.println("posição da lista "+pesquisaBinaria(letras, "P"));
 
 	}
 
