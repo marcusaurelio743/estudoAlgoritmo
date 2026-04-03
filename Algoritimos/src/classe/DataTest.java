@@ -20,6 +20,7 @@ public class DataTest {
 		
 		Data data3 = new Data();
 		System.out.println(data3.dataFormataBR());
+		data3.imprimirDataInternacional();
 		
 	}
 

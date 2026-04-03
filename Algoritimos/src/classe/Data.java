@@ -12,11 +12,15 @@ public class Data {
 	public String dataFormatadaInternacional() {
 		return String.format("%d-%d-%d", ano,mes,dia);
 	}
-	
+	public void imprimirDataBR() {
+		System.out.println(this.dataFormataBR());
+	}
+	public void imprimirDataInternacional() {
+		System.out.println(this.dataFormatadaInternacional());
+	}
 	public Data() {
-		dia = 1;
-		mes = 1;
-		ano = 1971;
+
+		this(1,1,1970);
 	}
 	public Data(int dia, int mes, int ano) {
 		super();
